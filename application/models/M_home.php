@@ -20,6 +20,15 @@ class M_home extends CI_Model {
         $this->db->order_by('id_prestasi', 'desc');
         return $this->db->get()->result();
     }
+
+    public function sapra()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_sapra');            
+        $this->db->order_by('id_sapra', 'desc');
+        return $this->db->get()->result();
+    }
+    
     //memunculkan berita deg pging
     public function berita($limit,$start)
     {
