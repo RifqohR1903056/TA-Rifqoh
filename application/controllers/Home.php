@@ -46,7 +46,50 @@ class Home extends CI_Controller {
 			);
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
+
 	
+
+	public function struktur()
+	{
+		$data = array(
+			'title' => 'Struktur Organisasi',
+			'isi'=> 'v_struktur' 
+			);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	public function visimisi()
+	{
+		$data = array(
+			'title' => 'Visi Misi',
+			'isi'=> 'v_visimisi' 
+			);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	
+
+	 public function sapra()
+	{
+		$data = array(
+			'title' => 'Sarana & Prasarana',
+			'sapra' => $this->m_home->sapra(),
+			'isi'=> 'v_sapra' 
+			);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+
+	
+	 public function contact()
+	{
+		$data = array(
+			'title' => 'Contact',
+			'isi'=> 'v_contact' 
+			);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
 	//berita
 	public function berita()
 	{
