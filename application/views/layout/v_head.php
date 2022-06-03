@@ -1,23 +1,33 @@
-
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Hiroto Template">
-    <meta name="keywords" content="Hiroto, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Al-Istiqomah</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="<?= base_url() ?>template/front-end/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="<?= base_url() ?>template/front-end/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="<?= base_url() ?>template/front-end/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="<?= base_url() ?>template/front-end/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="<?= base_url() ?>template/front-end/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="<?= base_url() ?>template/front-end/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="<?= base_url() ?>template/front-end/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="<?= base_url() ?>template/front-end/css/style.css" type="text/css">
+  <title>Al-Istiqomah</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="<?= base_url() ?>template/front-end/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="<?= base_url() ?>template/front-end/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url() ?>template/front-end/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?= base_url() ?>template/front-end/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?= base_url() ?>template/front-end/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?= base_url() ?>template/front-end/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="<?= base_url() ?>template/front-end/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="<?= base_url() ?>template/front-end/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Hidayah - v4.7.0
+  * Template URL: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-

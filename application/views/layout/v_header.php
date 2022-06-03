@@ -1,39 +1,23 @@
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
 
-    <!-- Offcanvas Menu Begin -->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper">
-        <div class="offcanvas__logo">
-            <a href=""><img src="<?= base_url() ?>template/front-end/img/logo.png" width ="50px" alt=""></a>
-        </div>
-        <div id="mobile-menu-wrap"></div>
-        <div class="offcanvas__btn__widget">
-            <a href="#">Book Now <span class="arrow_right"></span></a>
-        </div>
-        <div class="offcanvas__widget">
-            <ul>
-                <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                <li><span class="icon_phone"></span> (123) 456-78-910</li>
-            </ul>
-        </div>
-        <div class="offcanvas__language">
-            <img src="<?= base_url() ?>template/front-end/img/lan.png" alt="">
-            <span>English</span>
-            <i class="fa fa-angle-down"></i>
-            <ul>
-                <li>English</li>
-                <li>Bangla</li>
-            </ul>
-        </div>
-        <div class="offcanvas__auth">
-            <ul>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Register</a></li>
-            </ul>
-        </div>
+      <h1 class="logo"><a href="index.html">AL-ISTIQOMAH</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="<?= base_url() ?>template/front-end/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+        <li class="active"><a href="<?= base_url()?>">Home</a></li>
+        <li><a class="nav-link scrollto" href="<?= base_url('home/sapra') ?>">Sapra</a></li>
+          <li><a class="nav-link scrollto" href="<?= base_url('home/pengumuman') ?>">Pengumuman</a></li>
+          <li><a class="nav-link scrollto" href="<?= base_url('home/prestasi') ?>">Kajian</a></li>
+          <li><a class="nav-link scrollto" href="<?= base_url('home/contact') ?>">Kontak</a></li>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
-    <!-- Offcanvas Menu End -->
+  </header><!-- End Header -->
