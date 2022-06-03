@@ -4,8 +4,19 @@
 				
                 <ul class="nav side-menu">
                   <li><a href="<?= base_url('admin')?>"><i class="fa fa-home"></i> Dashboard <span class="label label-success pull-right"></span></a></li>
-                  <li><a><i class="fa fa-home"></i> Masjid <span class="fa fa-chevron-down"></span></a>
-                      
+                  <li><a><i class="fa fa-home"></i> Data Master <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                      <li><a href="<?= base_url('sapra')?>">Sarana & Prasarana</a></li>
+                      <li><a href="<?= base_url('prestasi')?>">Kajian</a></li>  
+                    </ul>
+                  </li>    
+                  <li><a><i class="fa fa-home"></i> Data Kas Masjid <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                      <li><a href="<?= base_url('')?>">Masukan</a></li>
+                      <li><a href="<?= base_url('')?>">Pengeluaran</a></li>
+                      </ul>
+                  </li>   
+                  <li><a href="<?= base_url('pengumuman')?>"><i class="fa fa-bullhorn"></i> Pengumuman <span class="label label-success pull-right"></span></a></li>  
                     </ul>
                   </li>       
                 </ul>
