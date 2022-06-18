@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-lg-13">
                         <div class="section-title">
-                            <h3>Pengumuman Masjid Al-Istiqomah</h2>
+                            <h3>PENGUMUMAN MASJID AL-ISTIQOMAH</h2>
                         </div>
                     </div>
                    
@@ -20,8 +20,8 @@
                         <h4><?= $value->judul_pengumuman?> </h4>
                         <p><?= $value->isi_pengumuman?></p>
                         <p>
-								<h4><span>Tanggal</span> : <?= $value->tgl?> </h4>
-							</p>
+							<h4><span>Tanggal</span> : <?= date("d-m-Y", strtotime($value->tgl))?> </h4>
+						</p>
                     </div>
                 </div>
                 
