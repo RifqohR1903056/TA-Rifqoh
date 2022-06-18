@@ -7,7 +7,7 @@
 						<div class="col-lg-12">
 							<div class="headeing pb-30">
 								<div class="section-title">
-                            <h3>Info Kajian</h2>
+                            <h3>INFO KAJIAN</h2>
                         </div>
 								<span class="b-line l-left line-h"></span>
 							</div>			
