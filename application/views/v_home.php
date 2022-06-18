@@ -1,17 +1,40 @@
-<!-- Hero Section Begin -->
-                    <div class="col-lg-6">
-                    <div class="home__about__pic">
-                        <img src="<?= base_url() ?>template/front-end/img/plang1.jpeg" alt="">
-                    </div>
-                    <div>
-                        <script type="text/javascript" src="https://www.muslimpro.com/muslimprowidget.js?cityid=1643078&language=id&timeformat=24" async></script>
-                    </div>
-                </div>
+ <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active" style="background-image: url(template/front-end/assets/img/remais.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">WELCOME TO <span>AL-ISTIQOMAH</span></h2>
+              <p class="animated fadeInUp">Semoga Kita Semua Selalu Dalam Lindungan Allah.</p>
             </div>
+          </div>
         </div>
-    </section>
-    <!-- Home About Section End -->
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(template/front-end/assets/img/masjid.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(template/front-end/assets/img/plang2.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section><!-- End Hero -->
     
     <!-- Services Section Begin -->
     <section class="about spad">
@@ -20,7 +43,7 @@
                 <div class="row">
                     <div class="col-lg-12">
             <div class="section-title">
-                            <h3>Pengumuman Masjid Al-Istiqomah</h2>
+                            <h3>PENGUMUMAN MASJID AL-ISTIQOMAH</h2>
                         </div>
             <div class="row">
 
@@ -32,7 +55,7 @@
                         <h4><?= $value->judul_pengumuman?> </h4>
                         <p><?= $value->isi_pengumuman?></p>
                         <p>
-                                <h4><span>Tanggal</span> : <?= $value->tgl?> </h4>
+                        <h4><span>Tanggal</span> : <?= date("d-m-Y", strtotime($value->tgl))?> </h4>
                             </p>
                     </div>
                 </div>
@@ -68,3 +91,22 @@
         </div>
     </section>
     <!-- Latest Blog Section End -->
+
+    <!-- Services Section Begin -->
+                <div class="row">
+                    <div class="col-lg-12">
+            <div class="section-title">
+                            <h3>MAPS</h2>
+                        </div>
+                        <div class="row">
+    <!-- MAP-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.9589215812034!2d108.28104921431192!3d-6.399295064368175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5011493e0221d653!2sMasjid%20Jami%20Al-Istiqomah!5e0!3m2!1sid!2sid!4v1655528085262!5m2!1sid!2sid" width="1190" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<!-- MAP-->
+				</div>
+			</div>
+		</section>
+		<!-- End Services Section-->
+				</div>
+			</div>
+		</section>
+		<!-- End Services Section-->
