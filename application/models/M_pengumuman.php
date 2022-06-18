@@ -14,6 +14,8 @@ class M_pengumuman extends CI_Model {
         return $this->db->get()->result();
     }
 
+    
+
     public function detail($id_pengumuman) 
     {
         $this->db->select('*');
