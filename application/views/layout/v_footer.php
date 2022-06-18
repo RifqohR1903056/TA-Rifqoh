@@ -90,6 +90,8 @@
   <!-- Template Main JS File -->
   <script src="<?= base_url() ?>template/front-end/assets/js/main.js"></script>
 
+  
+
 </body>
 
 </html>
