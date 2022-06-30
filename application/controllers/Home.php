@@ -47,8 +47,18 @@ class Home extends CI_Controller {
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
 
-	
 
+	public function jumat()
+	{
+		$data = array(
+			'title' => 'Sholat Jumat',
+			'jumat' => $this->m_home->jumat(),
+			'isi'=> 'v_jumat' 
+			);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	
 	public function struktur()
 	{
 		$data = array(
