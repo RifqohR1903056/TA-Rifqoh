@@ -21,6 +21,23 @@ class M_home extends CI_Model {
         return $this->db->get()->result();
     }
 
+    public function struktur()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_struktur');            
+        $this->db->order_by('id_struktur', 'desc');
+        return $this->db->get()->result();
+    }
+
+
+    public function jumat()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_jumat');            
+        $this->db->order_by('id_jumat', 'desc');
+        return $this->db->get()->result();
+    }
+
     public function sapra()
     {
         $this->db->select('*');
