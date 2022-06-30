@@ -5,7 +5,7 @@
 						<div class="col-lg-12">
 							<div class="headeing pb-30">
 								<div class="section-title">
-                            <h3>KONTAK MASJID AL-ISTIQOMAH</h2>
+                            <h3>KONTAK KAMI</h2>
                         </div>
                 <div class="col-lg-5 col-md-6 col-sm-5">
                     <div class="contact__widget">
