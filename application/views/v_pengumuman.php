@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-lg-13">
                         <div class="section-title">
-                            <h3>PENGUMUMAN MASJID AL-ISTIQOMAH</h2>
+                            <h3>PENGUMUMAN</h2>
                         </div>
                     </div>
                    
