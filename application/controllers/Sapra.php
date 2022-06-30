@@ -51,6 +51,7 @@ public function __construct()
                             $config ['image_library'] = 'gd2';
                             $config ['source_image'] = './sampul/'.$upload_data['uploads']['file_name'];
                             $this->load->library('image_lib', $config);
+                            // $this->upload->initialize($config);
 
                             $data = array(
                                 'nama_sapra' 		=> $this->input->post('nama_sapra'),							
