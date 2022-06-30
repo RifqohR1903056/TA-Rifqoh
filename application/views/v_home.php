@@ -35,6 +35,8 @@
 
     </div>
   </section><!-- End Hero -->
+
+  <iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 358px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1643078/shafi/11/0/20.0/18.0"> </iframe>
     
     <!-- Services Section Begin -->
     <section class="about spad">
@@ -92,21 +94,4 @@
     </section>
     <!-- Latest Blog Section End -->
 
-    <!-- Services Section Begin -->
-                <div class="row">
-                    <div class="col-lg-12">
-            <div class="section-title">
-                            <h3>MAPS</h2>
-                        </div>
-                        <div class="row">
-    <!-- MAP-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.9589215812034!2d108.28104921431192!3d-6.399295064368175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5011493e0221d653!2sMasjid%20Jami%20Al-Istiqomah!5e0!3m2!1sid!2sid!4v1655528085262!5m2!1sid!2sid" width="1190" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		<!-- MAP-->
-				</div>
-			</div>
-		</section>
-		<!-- End Services Section-->
-				</div>
-			</div>
-		</section>
-		<!-- End Services Section-->
+   
