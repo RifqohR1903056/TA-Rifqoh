@@ -28,6 +28,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Sapra</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Jadwal Sholat</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Pengumuman</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Kontak</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
