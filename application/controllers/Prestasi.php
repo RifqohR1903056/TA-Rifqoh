@@ -39,6 +39,7 @@ class Prestasi extends CI_Controller {
                     else
                     {
                             $data = array(
+                                
                                 'nm_kajian'     => $this->input->post('nm_kajian'),
                                 'hari'    => $this->input->post('hari'),
                                 'nm_ustad'    => $this->input->post('nm_ustad'),
