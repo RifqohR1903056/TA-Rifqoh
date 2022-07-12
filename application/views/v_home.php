@@ -38,8 +38,28 @@
 
   <iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 358px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1643078/shafi/11/0/20.0/18.0"> </iframe>
     
-    <!-- Services Section Begin -->
     <section class="about spad">
+        <div class="container">
+            <div class="about__content">
+                <div class="row">
+                    <div class="col-lg-12">
+            <div class="section-title">
+                            <h3>STRUKTUR ORGANISASI</h2>
+                        </div>
+               
+            </div>
+            <center>
+            <div class="col-md-6 center">
+                <img src="<?php echo base_url().'template/front-end/img/struktur.png'?>" class="img-fluid about-img" alt="#">
+            </div>
+  </center>
+        </div>
+    </div>
+</section>
+<!--//END ABOUT -->
+
+ <!-- Services Section Begin -->
+ <section class="about spad">
         <div class="container">
             <div class="about__content">
                 <div class="row">
@@ -68,22 +88,29 @@
     </section>
     <!-- Services Section End -->
 
-   
-
+    <!-- Latest Blog Section Begin -->
+    <section class="latest-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h5>NEWS & EVENT</h5>
+                        <h2>From Our Blog</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                <?php foreach ($berita as $key => $value) { ?>
                 <div class="col-lg-3 p-0 order-lg-3 col-md-6 order-md-4">
-                    <div class="latest__blog__pic set-bg" data-setbg="<?=base_url('gambar/'.$value->gambar_berita)?>"></div>
-                </div>
-                <div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-3">
+                    
+                   
+                  </div>
+                <div class="col-lg-3 ">
                     <div class="latest__blog__text">
-                        <div class="label">Berita</div>
+                        <div class="label">Artikel</div>
                         <h5><a href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>"><?= substr(strip_tags($value->jdl_berita),0,100) ?></a></h5>
                         <p><i class="fa fa-clock-o"></i> </i><?= $value->tgl_berita ?></p>
-                        <a href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>">Selengkapnya</a>
+                        <a href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>">Read More</a>
                     </div>
                 </div>
 
@@ -93,5 +120,4 @@
         </div>
     </section>
     <!-- Latest Blog Section End -->
-
    
