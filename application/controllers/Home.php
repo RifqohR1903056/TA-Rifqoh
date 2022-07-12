@@ -47,6 +47,15 @@ class Home extends CI_Controller {
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
 
+	public function lapkas()
+	{
+		$data = array(
+			'title' => 'Laporan Kas',
+			'lapkas' => $this->m_home->lapkas(),
+			'isi' => 'v_lapkas'
+		);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
 
 	public function jumat()
 	{
@@ -85,6 +94,16 @@ class Home extends CI_Controller {
 			'title' => 'Sarana & Prasarana',
 			'sapra' => $this->m_home->sapra(),
 			'isi'=> 'v_sapra' 
+			);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	public function gallery()
+	{
+		$data = array(
+			'title' => 'Gallery',
+			'gallery' => $this->m_home->gallery(),
+			'isi'=> 'v_gallery' 
 			);
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
