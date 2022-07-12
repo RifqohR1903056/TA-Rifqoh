@@ -1,7 +1,7 @@
 
 
     <!-- Blog Post Section -->
-  <section class="padding ptb-xs-40">
+    <section class="padding ptb-xs-40">
     <div class="container">
       <div class="row"> 
         <!-- Post Bar -->
@@ -15,7 +15,7 @@
             <div class="post-header">
               <h2><?= $berita->jdl_berita ?></h2>
             </div>
-            <div class="post-media"> <img src="<?= base_url('gambar/'.$berita->gambar_berita ) ?>" alt=""></div>
+            <div class="post-media"> <img src="<?= base_url('gambar/'.$berita->gambar_berita ) ?>" alt="" width="200px"></div>
             <div class="post-entry">
               <p><?= $berita->isi_berita ?></p>
              
