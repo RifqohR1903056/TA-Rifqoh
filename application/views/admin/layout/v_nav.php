@@ -7,13 +7,23 @@
                   <li><a><i class="fa fa-home"></i> Data Master <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
                       <li><a href="<?= base_url('sapra')?>">Sarana & Prasarana</a></li>
-                      <li><a href="<?= base_url('struktur')?>">Struktur Organisasi</a></li>
+                      <li><a href="<?= base_url('organisasi')?>">Struktur Organisasi</a></li>
+                      <li><a href="<?= base_url('gallery')?>">Gallery Photo</a></li>
                       <li><a href="<?= base_url('jumat')?>">Sholat Jumat</a></li>
+                      <li><a href="<?= base_url('majelis')?>">Majelis Ta'Lim</a></li>
                       <li><a href="<?= base_url('prestasi')?>">Kajian</a></li>  
                     </ul>
                   </li>    
-                  <li><a href="<?= base_url('pengumuman')?>"><i class="fa fa-bullhorn"></i> Pengumuman <span class="label label-success pull-right"></span></a></li>  
+                  <li><a><i class="fa fa-money"></i> Kas Masjid <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                      <li><a href="<?= base_url('kas/index')?>">Kas Masuk</a></li>
+                      <li><a href="<?= base_url('kas_keluar/index')?>">Kas Keluar</a></li>
+                      <li><a href="<?= base_url('rekap_kas/index')?>">Rekap Kas</a></li>  
                     </ul>
+                  </li>   
+                  <li><a href="<?= base_url('pengumuman')?>"><i class="fa fa-bullhorn"></i> Pengumuman <span class="label label-success pull-right"></span></a></li>  
+                  <li><a href="<?= base_url('berita')?>"><i class="fa fa-newspaper-o"></i> Berita <span class="label label-success pull-right"></span></a></li>  
+                </ul>
                   </li>       
                 </ul>
               </div>
