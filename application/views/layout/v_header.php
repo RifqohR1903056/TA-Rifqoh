@@ -14,16 +14,19 @@
             <ul>
             <li><a href="<?= base_url('home/struktur') ?>">Struktur Organisasi</a></li>
             <li><a href="<?= base_url('home/sapra') ?>">Sarana Dan Prasarana</a></li>
+            <li><a href="<?= base_url('home/gallery') ?>">Gallery Photo</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Jadwal</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Sholat Jumat</a></li>
-              <li><a href="#">Majelis Ta'lim</a></li>
+          <ul>
+            <li><a href="<?= base_url('home/jumat') ?>">Sholat Jumat</a></li>
+            <li><a href="<?= base_url('home/majelis') ?>">Majelis Ta'lim</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/pengumuman') ?>">Pengumuman</a></li>
+          <li><a class="nav-link scrollto" href="<?= base_url('home/berita') ?>">Berita</a></li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/prestasi') ?>">Kajian</a></li>
+          <li><a class="nav-link scrollto" href="<?= base_url('home/lapkas') ?>">Laporan Kas</a></li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/contact') ?>">Kontak</a></li>
           </li>
         </ul>
