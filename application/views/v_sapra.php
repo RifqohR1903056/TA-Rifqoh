@@ -1,21 +1,28 @@
-	 <section class="rooms spad">
+ <!-- About Section Begin -->
+ <section class="about spad">
         <div class="container">
-           
-                <?php foreach ($sapra as $key => $value) { ?>
-                
-                    <div class="container">
-                        <div class="row">
-
-                            
-                            <div class="card" style="width: 18rem;">
-                                <img src="<?=base_url('sampul/'.$value->sampul)?>" class="card-img-top img-thumbnail" alt="..." >
-                                <div class="card-body">
-                                    <p class="card-text"><?= $value->nama_sapra?></p>
-                                </div>
-                            </div>
+            <div class="about__content">
+                <div class="row">
+                    <div class="col-lg-13">
+                        <div class="section-title">
+                            <h3>SARANA & PRASARANA</h2>
                         </div>
                     </div>
-				<?php } ?>
+                   	
+  
+<div class="row">
+<?php foreach ($sapra as $key => $value) { ?>
+  <div class="col-sm-4">
+    <div class="card">
+    <img src="<?=base_url('sampul/'.$value->sampul)?>" class="card-img-top" alt="..." width="200px" height="200px">
+      <div class="card-body">
+        <h5 class="card-title"><?= $value->nama_sapra?></h5>
+      </div>
+    </div>
+  </div>
+  <?php } ?>
+</div>
+
         
         </div>
     </section>
