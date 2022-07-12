@@ -46,6 +46,13 @@ class M_home extends CI_Model {
         return $this->db->get()->result();
     }
     
+    public function gallery()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_gallery');            
+        $this->db->order_by('id_gallery', 'desc');
+        return $this->db->get()->result();
+    }
     //memunculkan berita deg pging
     public function berita($limit,$start)
     {
@@ -92,6 +99,11 @@ class M_home extends CI_Model {
         $this->db->order_by('id_berita', 'desc');
         $this->db->limit(2);
         return $this->db->get()->result();
+    }
+
+    public function lapkas()
+    {
+        return $this->db->get('kas_masjid')->result();
     }
         
 }
