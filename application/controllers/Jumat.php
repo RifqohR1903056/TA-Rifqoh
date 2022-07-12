@@ -24,6 +24,7 @@ class Jumat extends CI_Controller {
 
         public function add()          
         {
+            $this->form_validation->set_rules('tgl', 'Tanggal ', 'required'); 
             $this->form_validation->set_rules('nm_khatib', 'Nama Khatib ', 'required');   
             $this->form_validation->set_rules('nm_imam', 'Nama Imam', 'required');        
             $this->form_validation->set_rules('nm_muadzin', 'Nama Muadzin', 'required');          
@@ -39,7 +40,7 @@ class Jumat extends CI_Controller {
                     {
                             $data = array(
                                 
-                                'tgl' 	=> date('Y,m.d'),
+                                'tgl' => $this->input->post('tgl'),
                                 'nm_khatib' => $this->input->post('nm_khatib'),
                                 'nm_imam'    => $this->input->post('nm_imam'),
                                 'nm_muadzin'    => $this->input->post('nm_muadzin')
@@ -52,6 +53,7 @@ class Jumat extends CI_Controller {
 
         public function edit($id_jumat)
         {
+            $this->form_validation->set_rules('tgl', 'Tanggal ', 'required');
             $this->form_validation->set_rules('nm_khatib', 'Nama Khatib ', 'required');   
             $this->form_validation->set_rules('nm_imam', ' Nama Imam', 'required');        
             $this->form_validation->set_rules('nm_muadzin', 'Nama Muadzin', 'required');           
@@ -67,7 +69,7 @@ class Jumat extends CI_Controller {
                     else
                     {
                             $data = array(
-                                'tgl' 	=> date('Y,m.d'),
+                                'tgl' 	=> $this->input->post('tgl'),
                                 'id_jumat' 	=> $id_jumat,
                                 'nm_khatib'  => $this->input->post('nm_khatib'),
                                 'nm_imam'    => $this->input->post('nm_imam'),
