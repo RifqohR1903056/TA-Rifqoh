@@ -23,25 +23,25 @@
                echo validation_errors('<div class="alert alert-danger alert-dismissable ">
                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>','</div>');
 
-               echo form_open_multipart('sapra/edit/'.$sapra->id_sapra); ?>
+               echo form_open_multipart('organisasi/edit/'.$organisasi->id_organisasi); ?>
 
             <div class="item form-group">
-                <label class="col-form-label col-md-3 col-sm-3 label-align">Nama Sarana & Prasarana <span class="required">*</span>
+                <label class="col-form-label col-md-3 col-sm-3 label-align">Struktur Organisasi <span class="required">*</span>
                 </label>
                 <div class="col-md-6 col-sm-6 ">
-                <input type="text" name = "nama_sapra" required="required" value="<?= $sapra->nama_sapra ?>" placeholder="Nama Sarana & Prasarana" class="form-control ">
+                <input type="text" name = "nama_organisasi" required="required" value="<?= $organisasi->nama_organisasi ?>" placeholder="Nama Sarana & Prasarana" class="form-control ">
                 </div>
             </div>
             <div class="item form-group">
                 <label class="col-form-label col-md-3 col-sm-3 label-align"></label>
                 <div class="col-md-6 col-sm-6 ">
-                <img src="<?= base_url('sampul/'.$sapra->sampul) ?>" width="100px" alt="">
+                <img src="<?= base_url('struktur/'.$organisasi->struktur) ?>" width="100px" alt="">
                 </div>
             </div>
              <div class="item form-group">
                 <label class="col-form-label col-md-3 col-sm-3 label-align">Ganti Photo</label>
                 <div class="col-md-6 col-sm-6 ">
-                    <input class="form-control" type="file" name="sampul">
+                    <input class="form-control" type="file" name="struktur">
                 </div>
             </div>
 
