@@ -9,8 +9,13 @@
                       <li><a href="<?= base_url('sapra')?>">Sarana & Prasarana</a></li>
                       <li><a href="<?= base_url('organisasi')?>">Struktur Organisasi</a></li>
                       <li><a href="<?= base_url('gallery')?>">Gallery Photo</a></li>
-                      <li><a href="<?= base_url('jumat')?>">Sholat Jumat</a></li>
+                      </ul>
+                  </li>
+                  <li><a><i class="fa fa-calendar"></i> Agenda <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
                       <li><a href="<?= base_url('majelis')?>">Majelis Ta'Lim</a></li>
+                      <li><a href="<?= base_url('jumat')?>">Sholat Jumat</a></li>
+                      <li><a href="<?= base_url('tarawih')?>">Sholat Tarawih</a></li>
                       <li><a href="<?= base_url('prestasi')?>">Kajian</a></li>  
                     </ul>
                   </li>    
