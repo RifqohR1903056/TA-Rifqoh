@@ -107,7 +107,6 @@
                   </div>
                 <div class="col-lg-3 ">
                     <div class="latest__blog__text">
-                        <div class="label">Artikel</div>
                         <h5><a href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>"><?= substr(strip_tags($value->jdl_berita),0,100) ?></a></h5>
                         <p><i class="fa fa-clock-o"></i> </i><?= $value->tgl_berita ?></p>
                         <a href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>">Read More</a>
@@ -121,3 +120,4 @@
     </section>
     <!-- Latest Blog Section End -->
    
+    
