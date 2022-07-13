@@ -35,6 +35,25 @@ class Home extends CI_Controller {
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
 
+	public function majelis()
+	{
+		$data = array(
+			'title' => 'Majelis',
+			'majelis' => $this->m_home->majelis(),
+			'isi'=> 'v_majelis' 
+			);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	public function tarawih()
+	{
+		$data = array(
+			'title' => 'tarawih',
+			'tarawih' => $this->m_home->tarawih(),
+			'isi'=> 'v_tarawih' 
+			);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
 	
 
 	public function prestasi()
@@ -68,11 +87,11 @@ class Home extends CI_Controller {
 	}
 
 	
-	public function struktur()
+	public function organisasi()
 	{
 		$data = array(
 			'title' => 'Struktur Organisasi',
-			'isi'=> 'v_struktur' 
+			'isi'=> 'v_organisasi' 
 			);
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
@@ -114,6 +133,7 @@ class Home extends CI_Controller {
 	{
 		$data = array(
 			'title' => 'Contact',
+			'contact' => $this->m_home->contact(),
 			'isi'=> 'v_contact' 
 			);
 		$this->load->view('layout/v_wrapper', $data, FALSE);
