@@ -26,7 +26,7 @@ public function __construct()
          public function add()
         {         
             
-        $this->form_validation->set_rules('nama_organisasi','Nama Sarana & Prasarana', 'required');
+        $this->form_validation->set_rules('nama_organisasi','Nama Struktur Organisasi', 'required');
 
             
             if ($this->form_validation->run() == TRUE) {
@@ -38,7 +38,7 @@ public function __construct()
                     {
                            
                             $data = array(                
-                                'title' => 'Input Data Sarana & Prasarana',
+                                'title' => 'Input Struktur Organisasi',
 								'error_upload' => $this->upload->display_errors(),
 								'isi'=> 'admin/organisasi/v_add'  
                             );
