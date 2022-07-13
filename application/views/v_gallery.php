@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-lg-13">
                         <div class="section-title">
-                            <h3>Gallery Photo</h2>
+                            <h3>GALLERY PHOTO</h2>
                         </div>
                     </div>
                    	
