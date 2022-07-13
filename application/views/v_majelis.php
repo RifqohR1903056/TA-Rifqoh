@@ -7,7 +7,8 @@
 						<div class="col-lg-12">
 							<div class="headeing pb-30">
 								<div class="section-title">
-                            <h3>INFO PENCERAMAH MAJELIS TA'LIM</h2>
+                            <h4>JADWAL PENCERAMAH RUTIN</h4>
+							<h4>MAJELIS TA'LIM MASJID AL-ISTIQOMAH</h4>
                         </div>
 								<span class="b-line l-left line-h"></span>
 							</div>			
