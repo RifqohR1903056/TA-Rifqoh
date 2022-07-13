@@ -16,10 +16,11 @@
             <li><a href="<?= base_url('home/gallery') ?>">Gallery Photo</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Jadwal</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Agenda</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-            <li><a href="<?= base_url('home/jumat') ?>">Sholat Jumat</a></li>
             <li><a href="<?= base_url('home/majelis') ?>">Majelis Ta'lim</a></li>
+            <li><a href="<?= base_url('home/jumat') ?>">Sholat Jumat</a></li>
+            <li><a href="<?= base_url('home/tarawih') ?>">Sholat Tarawih</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/pengumuman') ?>">Pengumuman</a></li>
