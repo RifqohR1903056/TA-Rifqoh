@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Al Istiqomah</title>
+    <title>Al-Istiqomah</title>
 
     <!-- Bootstrap -->
     <link href="<?= base_url() ?>template/back-end/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
