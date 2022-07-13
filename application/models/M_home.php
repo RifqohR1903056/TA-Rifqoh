@@ -21,11 +21,11 @@ class M_home extends CI_Model {
         return $this->db->get()->result();
     }
 
-    public function struktur()
+    public function organisasi()
     {
         $this->db->select('*');
-        $this->db->from('tbl_struktur');            
-        $this->db->order_by('id_struktur', 'desc');
+        $this->db->from('tbl_organisasi');            
+        $this->db->order_by('id_organisasi', 'desc');
         return $this->db->get()->result();
     }
 
@@ -35,6 +35,30 @@ class M_home extends CI_Model {
         $this->db->select('*');
         $this->db->from('tbl_jumat');            
         $this->db->order_by('id_jumat', 'desc');
+        return $this->db->get()->result();
+    }
+
+    public function majelis()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_majelis');            
+        $this->db->order_by('id_majelis', 'desc');
+        return $this->db->get()->result();
+    }
+
+    public function tarawih()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_tarawih');            
+        $this->db->order_by('id_tarawih', 'desc');
+        return $this->db->get()->result();
+    }
+
+    public function contact()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_inbox');            
+        $this->db->order_by('inbox_id', 'desc');
         return $this->db->get()->result();
     }
 
