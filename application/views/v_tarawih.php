@@ -7,8 +7,8 @@
 						<div class="col-lg-12">
 							<div class="headeing pb-30">
 								<div class="section-title">
-                            <h4>JADWAL IMAM DAN BILAL</h4>
-							<h4>TARAWIH MASJID AL-ISTIQOMAH</h4>
+                            <h4>JADWAL IMAM DAN BILAL TARAWIH </h4>
+							<h4>MASJID AL-ISTIQOMAH TAHUN 1443 H</h4>
                         </div>
 								<span class="b-line l-left line-h"></span>
 							</div>			
