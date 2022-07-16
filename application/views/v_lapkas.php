@@ -6,7 +6,7 @@
 			<div class="col-lg-12">
 				<div class="headeing pb-30">
 					<div class="section-title">
-						<h3>Laporan Kas Masjid</h2>
+						<h3>LAPORAN KAS MASJID</h2>
 					</div>
 					<span class="b-line l-left line-h"></span>
 				</div>
