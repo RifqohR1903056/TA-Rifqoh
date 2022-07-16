@@ -1,53 +1,77 @@
- <!-- Contact Section Begin -->
-    <section class="contact spad">
-        <div class="container">
-            <div class="row">					
-						<div class="col-lg-12">
-							<div class="headeing pb-30">
-								<div class="section-title">
-                            <h3>KONTAK KAMI</h2>
-                        </div>
-                <div class="col-lg-5 col-md-6 col-sm-5">
-                    <div class="contact__widget">
-                        <div class="contact__widget__item">
-                            <h4>Contact Us</h4>
-                            <ul>
-                                <li>(061) 456-78</li>
-                                <li>istiqomah.info@gmail.com</li>
-                            </ul>
-                        </div>
-                        <div class="contact__widget__item">
-                            <h4>Address</h4>
-                            <p>selayang Pandang<br />Indonesia</p>
-                        </div>
-                        <div class="contact__widget__time">
-                            <h4>Opentime</h4>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="contact__widget__time__item">
-                                        <ul>
-                                            <li>Monday - Friday</li>
-                                            <li><span>everyday</span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="contact__widget__time__item">
-                                        <ul>
-                                            <li>Saturday - Sunday</li>
-                                            <li><span>everyday</span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 offset-lg-1 col-md-6 col-sm-7">
-                    <div class="contact__form">
-                    </div>
-                </div>
-            </div>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h3>KONTAK KAMI </h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row">
+
+              <div class="col-lg-6">
+
+                <div class="row justify-content-center">
+
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-map"></i>
+                    <h4>Address</h4>
+                    <p>A108 Adam Street,<br>New York, NY 535022</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-phone"></i>
+                    <h4>Call Us</h4>
+                    <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-envelope"></i>
+                    <h4>Email Us</h4>
+                    <p>contact@example.com<br>info@example.com</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-time-five"></i>
+                    <h4>Working Hours</h4>
+                    <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="name">Your Name</label>
+                      <input type="text" name="name" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <label for="email">Your Email</label>
+                      <input type="email" class="form-control" name="email" id="email" required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" name="message" rows="8" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
-    <!-- Contact Section End -->
