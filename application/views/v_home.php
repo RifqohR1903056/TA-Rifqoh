@@ -10,29 +10,11 @@
       <div class="carousel-item active" style="background-image: url(template/front-end/assets/img/remais.jpeg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animated fadeInDown">WELCOME TO <span>AL-ISTIQOMAH</span></h2>
-              <p class="animated fadeInUp">Semoga Kita Semua Selalu Dalam Lindungan Allah.</p>
+              <h1 class="animated fadeInDown">SELAMAT DATANG DI WEBSITE <span>AL-ISTIQOMAH</span></h1>
+              <h4 class="animated fadeInDown">SEGALA PUJI BAGI ALLAH, <span>TUHAN SEMESTA ALAM</span></h4>
             </div>
           </div>
         </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(template/front-end/assets/img/masjid.jpeg)">
-          <div class="carousel-container">
-            <div class="container">
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(template/front-end/assets/img/plang2.jpeg)">
-          <div class="carousel-container">
-            <div class="container">
-          </div>
-        </div>
-      </div>
-
-
     </div>
   </section><!-- End Hero -->
 
@@ -119,5 +101,245 @@
         </div>
     </section>
     <!-- Latest Blog Section End -->
+
+     <!-- ======= Portfolio Section ======= -->
+     <section id="portfolio" class="portfolio">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>GALLERY PHOTO</h2>
+          <h3>Check our <span>Gallery Photo</span></h3>
+          <p>Begitulah Keajaiban Fotografi, Ngga Hanya Mengabadikan Momen Penting Dalam Hidup,Tapi juga Membekukan Kenangan Yang Ingin Diingat.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">PHBI</li> 
+              <li data-filter=".filter-card">Idul Fitri</li> 
+              <li data-filter=".filter-web">Idul Adha</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container justify-content-center">
+
+          <div class="col-xl-10">
+            <div class="row">
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/phbi5.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>PHBI 1</h4>
+                    <p>PHBI</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/phbi5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/kurban2.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Idul Adha 3</h4>
+                    <p>Idul Adha</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/kurban2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/phbi4.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>PHBI 2</h4>
+                    <p>PHBI</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/phbi4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/id3.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Idul Fitri 2</h4>
+                    <p>Idul Fitri</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/id3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/kurban1.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Idul Adha 2</h4>
+                    <p>Idul Adha</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/kurban1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/phbi3.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>PHBI 3</h4>
+                    <p>PHBI</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/phbi3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/id4.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Idul Fitri 1</h4>
+                    <p>Idul Fitri</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/id4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/id2.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Idul Fitri 3</h4>
+                    <p>Idul Fitri</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/id2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                  <img src="template/front-end/assets/img/portfolio/rapat kurban.jpeg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Idul Adha 3</h4>
+                    <p>Idul Adha</p>
+                    <div class="portfolio-links">
+                      <a href="template/front-end/assets/img/portfolio/rapat kurban.jpeg"" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                      <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End portfolio item -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+     <!-- ======= Contact Section ======= -->
+     <section id="contact" class="contact section-bg">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h3>Get In Touch With <span>Us</span></h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row">
+
+              <div class="col-lg-6">
+
+                <div class="row justify-content-center">
+
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-map"></i>
+                    <h4>Tempat</h4>
+                    <p>Desa Lohbener RT.18 RW.05<br>Indramayu, Jawa Barat</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-phone"></i>
+                    <h4>Telefon</h4>
+                    <p>+6282 1156 09172 <br>+6281 8069 47762</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-envelope"></i>
+                    <h4>Email</h4>
+                    <p>istiqomah@gmail.com<br>remaislohbener@gmail.com</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-time-five"></i>
+                    <h4>Working Hours</h4>
+                    <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="name">Your Name</label>
+                      <input type="text" name="name" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <label for="email">Your Email</label>
+                      <input type="email" class="form-control" name="email" id="email" required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" name="message" rows="8" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
    
     
