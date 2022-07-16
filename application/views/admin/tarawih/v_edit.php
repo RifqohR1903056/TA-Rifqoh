@@ -29,6 +29,7 @@
                 <div class="col-md-6 col-sm-6 ">
                 <input type="text" value ="<?= $tarawih->nm_imam?>" name = "nm_imam" required="required" placeholder="Nama Imam" class="form-control ">
                 </div>
+            </div>
             <div class="item form-group">
                 <label class="col-form-label col-md-3 col-sm-3 label-align">Nama Bilal <span class="required">*</span>
                 </label>
