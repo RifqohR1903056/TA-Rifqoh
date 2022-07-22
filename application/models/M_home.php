@@ -13,14 +13,6 @@ class M_home extends CI_Model {
         return $this->db->get()->result();
     }
 
-    public function prestasi()
-    {
-        $this->db->select('*');
-        $this->db->from('tbl_prestasi');            
-        $this->db->order_by('id_prestasi', 'desc');
-        return $this->db->get()->result();
-    }
-
     public function organisasi()
     {
         $this->db->select('*');
@@ -128,6 +120,11 @@ class M_home extends CI_Model {
     public function lapkas()
     {
         return $this->db->get('kas_masjid')->result();
+    }
+
+    public function registrasiDonatur()
+    {
+        return $this->db->get('data_donasi')->result();
     }
         
 }

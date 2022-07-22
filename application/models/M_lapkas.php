@@ -11,5 +11,7 @@ class M_lapkas extends CI_Model {
     {
         return $this->db->query('SELECT SUM(masuk) as tot_masuk, SUM(keluar) as tot_keluar FROM kas_masjid')->result();
     }
+
+    
 }
 ?>
