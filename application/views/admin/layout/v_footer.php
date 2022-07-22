@@ -1,13 +1,3 @@
-<!-- footer content -->
-<footer>
-          <div class="pull-right">
-            Sistem Informasi Manajemen Masjid Al-Istiqomah</a>
-          </div>
-          <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
-      </div>
-    </div>
 
     <!-- jQuery -->
     <script src="<?= base_url()?>template/back-end/vendors/jquery/dist/jquery.min.js"></script>
