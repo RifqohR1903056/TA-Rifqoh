@@ -3,13 +3,11 @@
 
 <div class="row">
 <?php foreach ($organisasi as $key => $value) { ?>
-  <div class="col-sm-4">
-    <div class="card">
-    <img src="<?=base_url('struktur/'.$value->struktur)?>" class="card-img-top" alt="..." width="200px" height="200px">
-      <div class="card-body">
-        <h5 class="card-title"><?= $value->nama_organisasi?></h5>
-      </div>
-    </div>
+  <div class="col-sm-8">
+   
+    <img src="<?=base_url('struktur/'.$value->struktur)?>" class="card-img-top" alt="..." width="900px" height="300px">
+     
+       
   </div>
   <?php } ?>
 </div>
