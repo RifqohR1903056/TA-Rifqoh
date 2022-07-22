@@ -3,7 +3,7 @@
     <div class="col-md-12 col-sm-12 ">
         <div class="x_panel">
             <div class="x_title">
-                <h2>Tambah Data Sarana & Prasarana</h2>
+                <h2>Tambah Struktur Organisasi</h2>
                 <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -26,10 +26,10 @@
               echo form_open_multipart('organisasi/add'); ?>
 
             <div class="item form-group">
-                <label class="col-form-label col-md-3 col-sm-3 label-align">Nama Sarana & Prasarana <span class="required">*</span>
+                <label class="col-form-label col-md-3 col-sm-3 label-align">Struktur Organisasi <span class="required">*</span>
                 </label>
                 <div class="col-md-6 col-sm-6 ">
-                <input type="text" name = "nama_organisasi" required="required" placeholder="Nama Sarana & Prasarana" class="form-control ">
+                <input type="text" name = "nama_organisasi" required="required" placeholder="Struktur Organisasi" class="form-control ">
                 </div>
             </div>
 
