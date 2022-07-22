@@ -15,7 +15,7 @@ public function __construct()
 	  public function index()
         {
             $data = array(
-                'title' => 'Sarana & Prasarana', 
+                'title' => 'Struktur Organisasi', 
                 'organisasi' => $this->m_organisasi->lists(),
                 'isi'  => 'admin/organisasi/v_list'
             );
