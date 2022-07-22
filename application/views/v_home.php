@@ -18,7 +18,7 @@
     </div>
   </section><!-- End Hero -->
 
-  <iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 358px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1643078/shafi/11/0/20.0/18.0"> </iframe>
+    <iframe id="iframe" title="prayerWidget" class="widget-m-top" style=" height: 358px; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1643078/shafi/11/0/20.0/18.0"> </iframe>
     
     <section class="about spad">
         <div class="container">
@@ -39,6 +39,7 @@
     </div>
 </section>
 <!--//END ABOUT -->
+
 
  <!-- Services Section Begin -->
  <section class="about spad">
@@ -69,38 +70,37 @@
         </div>
     </section>
     <!-- Services Section End -->
-
-    <!-- Latest Blog Section Begin -->
-    <section class="latest-blog spad">
+<!-- About Section Begin -->
+<section class="about spad">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h5>NEWS & EVENT</h5>
-                        <h2>From Our Blog</h2>
+            <div class="about__content">
+                <div class="row">
+                    <div class="col-lg-13">
+                        <div class="section-title">
+                            <h3>New Event</h2>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-               <?php foreach ($berita as $key => $value) { ?>
-                <div class="col-lg-3 p-0 order-lg-3 col-md-6 order-md-4">
-                    
-                   
-                  </div>
-                <div class="col-lg-3 ">
-                    <div class="latest__blog__text">
-                        <h5><a href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>"><?= substr(strip_tags($value->jdl_berita),0,100) ?></a></h5>
-                        <p><i class="fa fa-clock-o"></i> </i><?= $value->tgl_berita ?></p>
-                        <a href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>">Read More</a>
-                    </div>
-                </div>
+                   	
+  
+<div class="row">
+<?php foreach ($berita as $key => $value) { ?>
+  <div class="col-sm-4">
+    <div class="card">
+    <img src="<?=base_url('gambar/'.$value->gambar_berita)?>" class="card-img-top" alt="..." width="200px" height="200px">
+      <div class="card-body">
+      </div>
+      <p><?=($value->jdl_berita)?></p>
+      <p><i class="fa fa-clock-o"></i> </i><?= $value->tgl_berita ?></p>
+      <a class="btn btn-primary" href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>">Read More</a>
+    </div>
+  </div>
+  <?php } ?>
+</div>
 
-              <?php } ?>    
-                
-            </div>
+        
         </div>
     </section>
-    <!-- Latest Blog Section End -->
+
 
      <!-- ======= Portfolio Section ======= -->
      <section id="portfolio" class="portfolio">
