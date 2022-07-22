@@ -11,7 +11,7 @@
         <li class="active"><a href="<?= base_url()?>">Home</a></li>
         <li class="dropdown"><a href="#"><span>Profile</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-            <li><a href="<?= base_url('home/struktur') ?>">Struktur Organisasi</a></li>
+            <li><a href="<?= base_url('home/organisasi') ?>">Struktur Organisasi</a></li>
             <li><a href="<?= base_url('home/sapra') ?>">Sarana Dan Prasarana</a></li>
             <li><a href="<?= base_url('home/gallery') ?>">Gallery Photo</a></li>
             </ul>
@@ -25,7 +25,6 @@
           </li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/pengumuman') ?>">Pengumuman</a></li>
           <li><a href="<?= base_url('home/berita') ?>">Berita</a></li>
-          <li><a class="nav-link scrollto" href="<?= base_url('home/prestasi') ?>">Kajian</a></li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/lapkas') ?>">Laporan Kas</a></li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/contact') ?>">Kontak</a></li>
         </ul>
