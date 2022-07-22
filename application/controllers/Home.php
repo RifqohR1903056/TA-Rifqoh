@@ -91,21 +91,11 @@ class Home extends CI_Controller {
 	{
 		$data = array(
 			'title' => 'Struktur Organisasi',
+			'organisasi' => $this->m_home->organisasi(),
 			'isi'=> 'v_organisasi' 
 			);
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
-
-	public function visimisi()
-	{
-		$data = array(
-			'title' => 'Visi Misi',
-			'isi'=> 'v_visimisi' 
-			);
-		$this->load->view('layout/v_wrapper', $data, FALSE);
-	}
-
-	
 
 	 public function sapra()
 	{

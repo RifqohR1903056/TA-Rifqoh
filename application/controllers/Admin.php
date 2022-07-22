@@ -10,8 +10,14 @@ class Admin extends CI_Controller {
             'title' => 'Selamat Datang Admin', 
             'isi'  => 'admin/v_home'
         );
+
+      
         $this->load->view('admin/layout/v_wrapper', $data, FALSE);
     }
+
+  
+
+
 
 }
 
