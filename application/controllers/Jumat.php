@@ -13,7 +13,7 @@ class Jumat extends CI_Controller {
     public function index()
         {
             $data = array(
-                'title' => 'Data Sholat Jumat', 
+                'title' => 'Jadwal Imam, Khatib & Muadzin', 
                 'jumat' => $this->m_jumat->lists(),
                 'isi'  => 'admin/jumat/v_list'
             );
