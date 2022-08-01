@@ -13,7 +13,7 @@ class Tarawih extends CI_Controller {
     public function index()
         {
             $data = array(
-                'title' => 'Jadwal Tarawih', 
+                'title' => 'Jadwal Imam & Bilal', 
                 'tarawih' => $this->m_tarawih->lists(),
                 'isi'  => 'admin/tarawih/v_list'
             );
