@@ -119,11 +119,10 @@ class Home extends CI_Controller {
 
 
 	
-	 public function contact()
+	public function contact()
 	{
 		$data = array(
 			'title' => 'Contact',
-			'contact' => $this->m_home->contact(),
 			'isi'=> 'v_contact' 
 			);
 		$this->load->view('layout/v_wrapper', $data, FALSE);
