@@ -3,7 +3,7 @@
               <div class="menu_section">
 				
                 <ul class="nav side-menu">
-                  <li><a href="<?= base_url('admin')?>"><i class="fa fa-home"></i> Dashboard <span class="label label-success pull-right"></span></a></li>
+                  <li><a href="<?= base_url('admin')?>"><i class="fa fa-dashboard (alias)"></i> Dashboard <span class="label label-success pull-right"></span></a></li>
                   <li><a><i class="fa fa-home"></i> Data Master <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
                       <li><a href="<?= base_url('sapra')?>">Sarana & Prasarana</a></li>
@@ -74,15 +74,15 @@
           <!-- /top tiles -->
 
     <!-- jQuery -->
-    <script src="<?= base_url() ?>/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="<?= base_url() ?>template/back-end/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="<?= base_url() ?>/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>template/back-end/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- FastClick -->
-    <script src="<?= base_url() ?>/vendors/fastclick/lib/fastclick.js"></script>
+    <script src="<?= base_url() ?>template/back-end/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="<?= base_url() ?>/vendors/nprogress/nprogress.js"></script>
+    <script src="<?= base_url() ?>template/back-end/vendors/nprogress/nprogress.js"></script>
     <!-- Chart.js -->
-    <script src="<?= base_url() ?>/vendors/Chart.js/dist/Chart.min.js"></script>
+    <script src="<?= base_url() ?>template/back-end/vendors/Chart.js/dist/Chart.min.js"></script>
 
     <div class="">
     <div class="page-title">
