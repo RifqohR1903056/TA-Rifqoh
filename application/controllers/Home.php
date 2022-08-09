@@ -9,6 +9,7 @@ class Home extends CI_Controller {
 		parent::__construct();
 		$this->load->model('m_home');
 		$this->load->model('m_pengumuman');
+		$this->load->model('m_sapra');
 
 	}
     
@@ -18,10 +19,13 @@ class Home extends CI_Controller {
         $data = array(
             'title' => 'Web Informasi Masjid',         
              'pengumuman' => $this->m_pengumuman->lists(),          
-             'berita' => $this->m_home->slider_berita(),   
+			 'sapra' => $this->m_sapra->lists(),     
+            //  'berita' => $this->m_home->slider_berita(),   
             'isi'  => 'v_home'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
+		
+
     }
 
 
@@ -34,6 +38,7 @@ class Home extends CI_Controller {
 			);
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
+
 
 	public function majelis()
 	{
