@@ -47,7 +47,6 @@
     </section>
     <!-- About Section End -->
 
-
     <!-- ======= Struktur Section ======= -->
  <section id="portfolio" class="portfolio">
       <div class="container-fluid">
@@ -65,131 +64,6 @@
         </div>
 <!--//END ABOUT -->
 
-
-   
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container-fluid">
-
-        <div class="section-title">
-          <h2>Team</h2>
-          <h3>Our Hard Working <span>Team</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-            <div class="row">
-
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="member">
-                  <img src="template/front-end/assets/img/team/perpus.jpg" class="img-fluid" alt="">
-                  <div class="member-info">
-                    <div class="member-info-content">
-                      <h4>Walter White</h4>
-                      <span>Chief Executive Officer</span>
-                    </div>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- End Member Item -->
-
-              <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
-                <div class="member">
-                  <img src="template/front-end/assets/img/team/parkir.jpg" class="img-fluid" alt="">
-                  <div class="member-info">
-                    <div class="member-info-content">
-                      <h4>Sarah Jhonson</h4>
-                      <span>Product Manager</span>
-                    </div>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- End Member Item -->
-
-              <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
-                <div class="member">
-                  <img src="template/front-end/assets/img/team/parkir.jpg" class="img-fluid" alt="">
-                  <div class="member-info">
-                    <div class="member-info-content">
-                      <h4>William Anderson</h4>
-                      <span>CTO</span>
-                    </div>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- End Member Item -->
-
-              <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
-                <div class="member">
-                  <img src="template/front-end/assets/img/team/parkir.jpg" class="img-fluid" alt="">
-                  <div class="member-info">
-                    <div class="member-info-content">
-                      <h4>Amanda Jepson</h4>
-                      <span>Accountant</span>
-                    </div>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- End Member Item -->
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-<!-- About Section Begin -->
-<section class="about spad">
-        <div class="container">
-            <div class="about__content">
-                <div class="row">
-                    <div class="col-lg-13">
-                        <div class="section-title">
-                            <h3>New Event</h2>
-                        </div>
-                    </div>
-                   	
-  
-<div class="row">
-<?php foreach ($berita as $key => $value) { ?>
-  <div class="col-sm-4">
-    <div class="card">
-    <img src="<?=base_url('gambar/'.$value->gambar_berita)?>" class="card-img-top" alt="..." width="200px" height="200px">
-      <div class="card-body">
-      </div>
-      <p><?=($value->jdl_berita)?></p>
-      <p><i class="fa fa-clock-o"></i> </i><?= $value->tgl_berita ?></p>
-      <a class="btn btn-primary" href="<?=base_url('home/detail_berita/'.$value->slug_berita)?>">Read More</a>
-    </div>
-  </div>
-  <?php } ?>
-</div>
-
-        
-        </div>
-    </section>
 
 
      <!-- ======= Portfolio Section ======= -->
@@ -350,6 +224,33 @@
         </div>
 
       </div>
+    </section>
+
+    <!-- ======= Sapra Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Fasilitas</h2>
+          <h3>Fasilitas Masjid <span>Al-Istiqomah</span></h3>
+          </div>
+            <div class="row">       	
+  
+<div class="row">
+<?php foreach ($sapra as $key => $value) { ?>
+  <div class="col-sm-3">
+    <div class="card">
+    <img src="<?=base_url('sampul/'.$value->sampul)?>" class="card-img-top" alt="..." width="200px" height="200px">
+      <div class="card-body">
+        <h5 class="card-title"><?= $value->nama_sapra?></h5>
+      </div>
+    </div>
+  </div>
+  <?php } ?>
+</div>
+
+        
+        </div>
     </section>
 
      <!-- ======= Contact Section ======= -->
