@@ -122,6 +122,36 @@ class M_home extends CI_Model {
         return $this->db->get('kas_masjid')->result();
     }
 
+    public function infaq()
+    {
+        return $this->db->get('tbl_infaq_jumat')->result();
+    }
+
+    public function waqaf()
+    {
+        return $this->db->get('tbl_waqaf')->result();
+    }
+
+    public function mustahik()
+    {
+        return $this->db->get('tbl_mustahik')->result();
+    }
+
+    public function shodaqoh()
+    {
+        return $this->db->get('tbl_shodaqoh')->result();
+    }
+
+    public function zakat()
+    {
+        return $this->db->get('tbl_zakat')->result();
+    }
+
+    public function pengeluaran()
+    {
+        return $this->db->get('tbl_pengeluaran')->result();
+    }
+
     public function registrasiDonatur()
     {
         return $this->db->get('data_donasi')->result();
