@@ -18,11 +18,26 @@
                       <li><a href="<?= base_url('tarawih')?>">Sholat Tarawih</a></li> 
                     </ul>
                   </li>    
+                  <li><a><i class="fa fa-pencil-square-o"></i> Informasi <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                      <li><a href="<?= base_url('infaq')?>">Data Infaq</a></li>
+                      <li><a href="<?= base_url('shodaqoh')?>">Data Shodaqoh</a></li>
+                      <li><a href="<?= base_url('pengeluaran')?>">Data Pengeluaran</a></li>
+                      <li><a href="<?= base_url('waqaf')?>">Data Waqaf</a></li>  
+                    </ul>
+                  </li>   
+                  <li><a><i class="fa fa-pencil-square-o"></i> Zakat <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                      <li><a href="<?= base_url('zakat')?>">Data Zakat</a></li>
+                      <li><a href="<?= base_url('mustahik')?>">Data Mustahik</a></li>
+                      <li><a href="<?= base_url('rekap_zakat')?>">Rekap Zakat</a></li>
+                    </ul>
+                  </li>   
                   <li><a><i class="fa fa-money"></i> Kas Masjid <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
                       <li><a href="<?= base_url('kas/index')?>">Kas Masuk</a></li>
                       <li><a href="<?= base_url('kas_keluar/index')?>">Kas Keluar</a></li>
-                      <li><a href="<?= base_url('rekap_kas/index')?>">Rekap Kas</a></li>  
+                      <li><a href="<?= base_url('rekap_kas/index')?>">Rekap Kas</a></li>   
                     </ul>
                   </li>   
                   <li><a href="<?= base_url('pengumuman')?>"><i class="fa fa-bullhorn"></i> Pengumuman <span class="label label-success pull-right"></span></a></li>  
