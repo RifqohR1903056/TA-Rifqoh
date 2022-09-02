@@ -81,6 +81,67 @@ class Home extends CI_Controller {
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
 
+	
+	public function infaq()
+	{
+		$data = array(
+			'title' => 'Data Infaq',
+			'infaq' => $this->m_home->infaq(),
+			'isi' => 'v_infaq'
+		);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+	
+	public function waqaf()
+	{
+		$data = array(
+			'title' => 'Data Waqaf',
+			'waqaf' => $this->m_home->waqaf(),
+			'isi' => 'v_waqaf'
+		);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	public function mustahik()
+	{
+		$data = array(
+			'title' => 'Data Mustahik',
+			'mustahik' => $this->m_home->mustahik(),
+			'isi' => 'v_mustahik'
+		);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	public function shodaqoh()
+	{
+		$data = array(
+			'title' => 'Data Shodaqoh',
+			'shodaqoh' => $this->m_home->shodaqoh(),
+			'isi' => 'v_shodaqoh'
+		);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	public function zakat()
+	{
+		$data = array(
+			'title' => 'Data Zakat',
+			'zakat' => $this->m_home->zakat(),
+			'isi' => 'v_zakat'
+		);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
+	public function pengeluaran()
+	{
+		$data = array(
+			'title' => 'Data Pengeluaran',
+			'pengeluaran' => $this->m_home->pengeluaran(),
+			'isi' => 'v_pengeluaran'
+		);
+		$this->load->view('layout/v_wrapper', $data, FALSE);
+	}
+
 	public function jumat()
 	{
 		$data = array(
@@ -122,8 +183,6 @@ class Home extends CI_Controller {
 		$this->load->view('layout/v_wrapper', $data, FALSE);
 	}
 
-
-	
 	public function contact()
 	{
 		$data = array(

@@ -64,7 +64,7 @@ public function __construct()
             } 
             
             $data = array(
-                'title' => 'Tambah Data Sarana & Prasarana', 
+                'title' => 'Struktur Organisasi', 
                 'mapel' => $this->m_organisasi->lists(),
                 'isi'  => 'admin/organisasi/v_add'
             );
@@ -87,7 +87,7 @@ public function __construct()
                     {
                            
                             $data = array(                
-                                'title' => ' Edit Data Sarana & Prasarana', 
+                                'title' => ' Edit Struktur Organisasi', 
                                 'organisasi' => $this->m_organisasi->detail($id_organisasi),
                                 'isi'  => 'admin/organisasi/v_edit'
                             );
@@ -132,7 +132,7 @@ public function __construct()
             } 
 
             $data = array(
-                'title' => 'Edit Data Sarana & Prasarana',                
+                'title' => 'Edit Struktur Organisasi',                
                 'organisasi' => $this->m_organisasi->detail($id_organisasi),
                 'isi'  => 'admin/organisasi/v_edit'
             );
@@ -171,7 +171,7 @@ public function __construct()
                     {
                            $organisasi = $this->m_organisasi->detail($id_organisasi);
                             $data = array(                
-                				'title' => 'Tambah Data Foto Sarana & Prasarana : '.$organisasi->nama_organisasi,   
+                				'title' => 'Tambah Data Foto Struktur Organisasi : '.$organisasi->nama_organisasi,   
                                 'organisasi' => $organisasi ,
                                 'isi'  => 'admin/organisasi/v_add_foto'
                             );
@@ -197,7 +197,7 @@ public function __construct()
             } 
             $organisasi = $this->m_organisasi->detail($id_organisasi);
             $data = array(
-                'title' => 'Tambah Data Sarana & Prasarana : '.$organisasi->nama_organisasi,                
+                'title' => 'Tambah Struktur Organisasi : '.$organisasi->nama_organisasi,                
                 'organisasi' => $organisasi, 
                 'isi'  => 'admin/organisasi/v_add_foto'
             );
