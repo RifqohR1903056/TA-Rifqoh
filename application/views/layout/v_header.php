@@ -24,6 +24,21 @@
             <li><a href="<?= base_url('home/tarawih') ?>">Sholat Tarawih</a></li>
             </ul>
           </li>
+          <li class="dropdown"><a href="#"><span>Informasi</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="<?= base_url('home/infaq') ?>">Data Infaq</a></li>
+            <li><a href="<?= base_url('home/shdaqoh') ?>">Data Shodaqoh</a></li>
+            <li><a href="<?= base_url('home/pengeluaran') ?>">Data Pengeluaran</a></li>
+            <li><a href="<?= base_url('home/waqaf') ?>">Data Waqaf</a></li>
+            <li><a href="<?= base_url('home/mustahik') ?>">Data Mustahik</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Zakat</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+            <li><a href="<?= base_url('home/zakat') ?>">Data Zakat</a></li>
+            <li><a href="<?= base_url('home/mustahik') ?>">Data Mustahik</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/pengumuman') ?>">Pengumuman</a></li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/berita') ?>">Berita</a></li>
           <li><a class="nav-link scrollto" href="<?= base_url('home/lapkas') ?>">Laporan Kas</a></li>
